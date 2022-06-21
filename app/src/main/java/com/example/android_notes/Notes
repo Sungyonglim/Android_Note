@@ -17,3 +17,20 @@ XML
     - 하위 레이아웃이 wrap_content일 경우에는 정확히 안채워짐 -> wrap_content는 글자 크기에
     비례하기 때문 그래서 정확히 할려면 0dp로 마추고 진행
     - 단, wrap_content를 갖는 레이아웃이 있으면 layout_weight를 다 채워도 남아 있음
+
+* Toast message
+    Toast.makeText(this, "test", Toast.LENGTH.LONG)
+        - this는 현재 위치의 뷰에 띄운다는 의미
+        - "test"는 실제 띄워질 텍스트
+        - Toast.LENGTH.LONG은 메시지가 오래띄워진다는 이미 반대로 SHORT는 짧게 띄워짐
+
+    Toast.setGravity(Gravity.END | Gravity.BOTTOM, 10, 10)
+        - END는 가로 위치, BOTTOM은 세로 위치, 10은 가로에서 얼마나 띄워질지, 10은 세로에서 얼마나 띄워질지
+
+* 화면 이동 = Intent
+    startActivity(new Intent(현재 activity, 이동할 activity))
+    - Intent는 화면을 전환할 때 데이터도 넘겨줄 수 있음
+    - .putExtra("key", "value") 데이터 넘겨줄 수 있음
+    - 데이터 받는 곳 => intent.getExtra().getString("key")
+
+* AndroidManifest.xml 에서 activity 이름 안에 Intent가 있으면 그 부분이 가장 먼저 실행
