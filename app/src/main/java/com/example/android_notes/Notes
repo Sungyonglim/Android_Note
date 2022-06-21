@@ -1,0 +1,19 @@
+XML
+* 화면 크기
+    - wrap_content는 폭과 높이가 글자가 꼭 들어갈 정도로 설정
+    - match_parent는 자신의 부모에 폭이나 높이를 맞추는 것
+* px 및 dp 크기
+    - 레이아웃 크기는 dp 해야함 => 크기를 px로 지정하게 되면 핸드폰에 화면 크기에 따라 레이아웃이 다르게 보임
+    - px = dp * 단말 DPI / 기본 160
+    - dp = px * 기본 160 / 단말 DPI
+
+* sp
+    - 텍스트 크기는 sp로 설정
+    - dp로 설정하면 스마트폰에서 설정하면 반영이 안됨
+
+* 가중치 부여
+    - weighSum => 부모 레이아웃
+    - 하위 레이아웃에 layout_weight 설정하면 wightSum / layout_weight 만큼 채워짐
+    - 하위 레이아웃이 wrap_content일 경우에는 정확히 안채워짐 -> wrap_content는 글자 크기에
+    비례하기 때문 그래서 정확히 할려면 0dp로 마추고 진행
+    - 단, wrap_content를 갖는 레이아웃이 있으면 layout_weight를 다 채워도 남아 있음
