@@ -1,20 +1,55 @@
 package com.example.android_notes
 
-fun main() {
-    //3. String Template
-//    val name = "Lim"
-//    val lastName = "Sy"
-//    println("my name is ${name + lastName} I'm 23")
-//    println("is this true? 2\$a")
 
-    forAndWhile()
+// 8. class
+open class Human (val name : String="Anonymous"){
 
+    constructor(name: String, age: Int) : this(name) {
+        println("mY name is $name, $age")
+    }
+
+    init {
+        println("--------- init ---------")
+    }
+
+    fun eatingCake() {
+        println("This is so YAMY")
+    }
+
+    open fun singASong() {
+        println("lalala")
+    }
 }
+
+class Korean : Human() {
+
+
+    override fun singASong() {
+        super.singASong() // 상위 메서드 출력
+        println("Korean lalala")
+        println("my name is $name")
+    }
+}
+
+fun main() {
+
+//    val human = Human("Kim")
+//    val human2 = Human()
+//    human.eatingCake()
+
+//    val human3 = Human("Lim",26)
+
+//    println("this human's name is ${human.name}")
+//    println("this human's name is ${human2.name}")
+
+    val korean = Korean()
+    korean.singASong()
+}
+
 // 1. 함수
 fun helloWorld() {
     println("Hello world!")
 }
-
 fun add(a: Int, b:Int): Int {
     return a + b
 }
@@ -22,7 +57,6 @@ fun add(a: Int, b:Int): Int {
 //2. val vs var
 // val = value -> immutable  불변 객체
 // var = variable -> mutable  가변 객체
-
 fun hi() {
     val a: Int = 10
     var b: Int = 8
@@ -57,9 +91,7 @@ fun maxBy(a: Int, b:Int): Int {
         a
     }
 }
-
 fun maxBy2(a: Int, b: Int) = if(a>b) a else b
-
 fun checkNum(score: Int) {
     // Statement
     when(score) {
@@ -74,7 +106,7 @@ fun checkNum(score: Int) {
     var b = when(score) {
         1 -> 1
         2 -> 2
-        else -> 3 //else 생략 불가능 
+        else -> 3 //else 생략 불가능
     }
 
     println("b: ${b}")
@@ -100,26 +132,24 @@ fun checkNum(score: Int) {
 *       - 1. ImmutableList -> 수정이 불가능한 List
 *       - 2. MutableList -> 수정이 가능한 List
 * */
-
 fun array() {
-    val array = arrayOf(1,2,3) //Array 초기화
-    //Immutable List
-    val list = listOf(1,2,3)
-
-    val array2 = arrayOf(1, "d", 'c', 3.4f, 22.5)
-    val list2 = listOf(1, "d", 'c', 3.4f, 22.5)
-
-    array[0] = 3
-
-    //Mutable List
-    var arrayList = arrayListOf<Int>(1,23)
-    arrayList.add(10)
-    arrayList.add(20)
+//    val array = arrayOf(1,2,3) //Array 초기화
+//    //Immutable List
+//    val list = listOf(1,2,3)
+//
+//    val array2 = arrayOf(1, "d", 'c', 3.4f, 22.5)
+//    val list2 = listOf(1, "d", 'c', 3.4f, 22.5)
+//
+//    array[0] = 3
+//
+//    //Mutable List
+//    var arrayList = arrayListOf<Int>(1,23)
+//    arrayList.add(10)
+//    arrayList.add(20)
 
 }
 
 // 6. For / While
-
 fun forAndWhile() {
 //    val student = arrayListOf("Lim", "Kim","Hong","Park")
 //
@@ -144,11 +174,50 @@ fun forAndWhile() {
 //        println(i)
 //    }
 
-    var index = 0
+//    var index = 0
+//
+//    while(index < 10) {
+//        println("current: $index")
+//        index++
+//    }
 
-    while(index < 10) {
-        println("current: $index")
-        index++
-    }
+//    val student = arrayListOf("Lim", "Kim","Hong","Park")
+//
+//    // 인덱스와 데이터 같이 사용
+//    for((index, name) in student.withIndex()) {
+//        println("${index + 1}번째 학생 : ${name}")
+//    }
+
 }
 
+// 7. Nullable / NonNull
+fun nullCheck() {
+    // NPE : Null Pointer Exception
+    var name: String = "Lim"
+
+    var nullName: String? = null
+
+    var nameInUpperCase = name.toUpperCase()
+    var nullNameInUpperCase = nullName?.toUpperCase() // null이 아니면 toUppercase null이면 전체가 반환
+
+//    println(nullNameInUpperCase)
+    // 엘비스 연산자 ?:
+    val lastName : String? = "Sy"
+
+    val fullName = name + " " +(lastName ?: "No LastName") //null이 아니면 lastname 실행 null 이면 ?: 뒤에 문장 실행 -> default 값 부여
+//    println(fullName)
+
+    // !! -> null이 아님을 보장
+
+
+}
+fun ignoreNulls() {
+
+    val email: String? = "abcdef@asdsad.com"
+
+    // let을 사용한 null check
+    // email이 null이 아니면 let 구문을 실행해라
+    email?.let{
+        println("my email is $it")
+    }
+}
