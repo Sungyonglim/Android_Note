@@ -9,43 +9,111 @@ package com.example.android_notes
 - 람다의 기본정의
     - val lambdaName : Type = { argumentList -> codeBody }
 */
+// ex)
+val square : (Int) -> (Int)  = {number -> number * number}
 
-val square : (Int) -> (Int) = { it * it }
-
-val nameAge = { name:String, age:Int ->
-    "my name is $name I'm $age"
+val nameAge = {name: String, age: Int ->
+    "My name is $name, I'm $age"
 }
 
-fun main() {
-    val x = { number: Double -> number == 4.213 }
-    println(invokeLambda(x))
+//=================================================================================
 
-    println(invokeLambda{ it > 2.32 }) //마지막 파라미터가 람다식일 경우 이런 함수이름 { } 형태가 나옴
+// 2. 확장함수
+// ex)
+val x: String.() -> String = {
+    "$this Kotlin is the best!"
 }
 
-// 2. 확장 함수
-val pizza: String.() -> String = {
-    "$this Pizza is the best"
-}
 fun extendString(name: String, age: Int): String {
-    val intro : String.(Int) -> String = {
-        "Im am $this and $it years old  "// this는 String을 가리키거 it은 매개벼누 iNT
-    }
-    return name.intro(age)
-
+    // this가 가리키는 것은 확장함수가 불러줄 object(string) it이 가리키는 것은 파라미터(Int)
+    val introduce: String.(Int) -> String = {"I am $this and $it years old"}
+    return name.introduce(age)
 }
 
-// 3. 람다의 Return
-val calculator: (Int) -> String = {
+//=================================================================================
+
+//3. 람다의 return
+// ex)
+val calculate : (Int) -> String = {
     when(it) {
         in 0..40 -> "fail"
         in 41..70 -> "pass"
-        in 71..100 -> "perfect"
-        else -> "Error"
+        in 71..100 -> "prefect"
+        else -> "Nothing"
     }
 }
 
-// 4. 람다를 표현하는 다양한 방법
-fun invokeLambda(lambda: (Double) -> Boolean): Boolean {
-    return lambda(5.2342)
+//=================================================================================
+
+// 4. 람다를 표현하는 여러가지 방법
+// ex)
+fun invokeLambda(x: (Double) -> Boolean): Boolean {
+    return x(5.234)
+}
+/* Output
+val x = {number: Double ->
+    number == 4.3213
+}
+
+println(invokeLambda{ it > 63 })
+*/
+
+//=================================================================================
+
+// 5. data class -> 객체에 내용을 자주 볼 경우 좋음
+
+// 데이터 클래스를 정의하고 컴파일하면 메소드(toString(), hashCode(), equals(), copy())들이 만들어짐
+data class Ticket(val companyName: String, val name: String, var date: String, var seatNumber: Int)
+//println(ticketA) // data class는 데이터 값이 나옴
+
+class TicketNormal(val companyName: String, val name: String, var date: String, var seatNumber: Int)
+//println(ticketB) // 일단 클래스는 클래스 주솟값이 나옴
+
+// 6. companion Obejct
+class Book private constructor(val id: Int, val name: String) {
+    companion object BookFactory : IdProvider{
+        override fun getId() = 4444
+
+        val myBook = "new book"
+        fun create() = Book(getId(), myBook)
+    }
+}
+
+interface IdProvider {
+    fun getId() : Int
+}
+// Output
+/*
+    var book = Book.create()
+    val bookId = Book.BookFactory.getId()
+    val bookName = Book.BookFactory.myBook
+    println("${bookId}, ${bookName}")
+* */
+
+//=================================================================================
+
+// 6. Object
+
+// Singleton Pattern
+object CarFactory {
+    val cars2 = arrayListOf<Car>()
+    val cars = mutableListOf<Car>()
+    fun makeCar(horsePower: Int): Car{
+        val car = Car(horsePower)
+        cars.add(car)
+        cars2.add(car)
+        return car
+    }
+}
+
+data class Car(val horsePower: Int)
+
+fun main() {
+    val car = CarFactory.makeCar(10)
+    val car23 = CarFactory.makeCar(200)
+
+    println(car)
+    println(car23)
+    println(CarFactory.cars.size.toString())
+    println(CarFactory.cars2.size.toString())
 }
