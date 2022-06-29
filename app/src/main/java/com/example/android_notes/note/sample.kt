@@ -1,4 +1,4 @@
-package com.example.android_notes
+package com.example.android_notes.note
 
 
 // 8. class
