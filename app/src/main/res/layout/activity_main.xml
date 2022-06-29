@@ -1,28 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".MainActivity"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
 
     <ImageView android:id="@+id/iv"
         android:layout_width="115dp"
         android:layout_height="95dp"
-        android:layout_marginTop="20dp"
         android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
         android:background="@drawable/logo" />
 
 
-    <Button android:id="@+id/btn"
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="이메일을 입력해주세요."
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="이름을 입력해주세요."
+        android:inputType="text" />
+
+
+    <EditText
+        android:id="@+id/et_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="나이를 입력해주세요."
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/et_pw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="비밀번호를 입력해주세요."
+        android:inputType="textPassword" />
+
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:background="@drawable/custom_button_selector"
-        android:drawableLeft="@drawable/ic_play_arrow"
-        android:drawablePadding="10dp"
-        android:paddingHorizontal="30dp"
-        android:text="Button"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/favoriteColor"
+        android:onClick="login"
+        android:text="로그인"
         android:textColor="#fff"
-        android:textSize="20sp" />
-</FrameLayout>
+        android:textStyle="bold" />
+
+
+</LinearLayout>

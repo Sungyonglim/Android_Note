@@ -6,24 +6,14 @@
     android:weightSum="10"
     android:orientation="horizontal">
 
-    <Button
-        android:layout_width="wrap_content"
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="버튼1"
-        android:onClick="Btn1Click"
-    />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/Btn2"
-        android:text="버튼2" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/Btn3"
-        android:text="버튼3" />
+        android:text="로그인 성공"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:layout_gravity="center"/>
 
 </LinearLayout>

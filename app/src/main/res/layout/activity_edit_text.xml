@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditTextActivity">
+
+<!--    EditText Attribute
+        android:cursorVisible="false" // 커서 없애기
+        android:maxHeight="200dp"  // 최대 높이 enter누르면 아래로 넘어감
+        android:textColor="@color/favoriteColor" //text 색상
+        android:textColorHighlight="@color/favoriteColor" // 글자를 드래그하면 바뀌는 색상
+        android:textCursorDrawable="@color/favoriteColor" //cursor 색상
+-->
+
+
+    <ImageView
+        android:src="@drawable/android_icon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    />
+
+    <!-- ImageView
+        - 사진 넣기 = src, (background X)
+
+    -->
+</LinearLayout>
