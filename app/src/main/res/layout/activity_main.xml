@@ -1,9 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<FrameLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <ImageView android:id="@+id/iv"
+        android:layout_width="115dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/logo" />
 
 
-</LinearLayout>
+    <Button android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_button_selector"
+        android:drawableLeft="@drawable/ic_play_arrow"
+        android:drawablePadding="10dp"
+        android:paddingHorizontal="30dp"
+        android:text="Button"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+</FrameLayout>
