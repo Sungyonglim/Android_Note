@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.android_notes">
+    package="com.example.android_notes" >
 
-    <application android:allowBackup="true"
+    <application
+        android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
@@ -11,20 +12,28 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidNotes"
-        tools:targetApi="31">
-
-        <activity android:name=".ListViewActivity"
+        tools:targetApi="31" >
+        <activity
+            android:name=".activity.CardViewActivity"
             android:exported="false" />
-        <activity android:name=".RecyclerviewActivity"
+        <activity
+            android:name=".activity.ListViewActivity"
             android:exported="false" />
-        <activity android:name=".SubActivity"
+        <activity
+            android:name=".activity.RecyclerviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.SubActivity"
             android:exported="true" />
-        <activity android:name=".TestActivity"
+        <activity
+            android:name=".activity.TestActivity"
             android:exported="true" />
-        <activity android:name=".EditTextActivity"
+        <activity
+            android:name=".activity.EditTextActivity"
             android:exported="true" />
-        <activity android:name=".MainActivity"
-            android:exported="true">
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

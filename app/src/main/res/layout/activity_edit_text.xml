@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".EditTextActivity">
+    tools:context=".activity.EditTextActivity">
 
 <!--    EditText Attribute
         android:cursorVisible="false" // 커서 없애기

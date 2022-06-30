@@ -17,7 +17,26 @@ class CustomViewHolder(v: View) : RecyclerView.ViewHolder(v) {
     val name = v.tv_custom
 }
 
-class CustomRecyclerViewAdapter(val DataList: ArrayList<Data>, val context: Context) : RecyclerView.Adapter<CustomViewHolder>() {
+class CustomRecyclerViewAdapter(val context: Context) : RecyclerView.Adapter<CustomViewHolder>() {
+    val DataList = arrayListOf(
+        Data(R.drawable.android_icon, "1번"),
+        Data(R.drawable.android_icon, "2번"),
+        Data(R.drawable.android_icon, "3번"),
+        Data(R.drawable.android_icon, "4번"),
+        Data(R.drawable.android_icon, "5번"),
+        Data(R.drawable.android_icon, "6번"),
+        Data(R.drawable.android_icon, "7번"),
+        Data(R.drawable.android_icon, "8번"),
+        Data(R.drawable.android_icon, "9번"),
+        Data(R.drawable.android_icon, "10번"),
+        Data(R.drawable.android_icon, "11번"),
+        Data(R.drawable.android_icon, "12번"),
+        Data(R.drawable.android_icon, "13번"),
+        Data(R.drawable.android_icon, "14번"),
+        Data(R.drawable.android_icon, "15번"),
+        Data(R.drawable.android_icon, "16번"),
+        Data(R.drawable.android_icon, "17번"),
+    )
 
     // 생성
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CustomViewHolder {

@@ -1,4 +1,4 @@
-package com.example.android_notes;
+package com.example.android_notes.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,6 +6,8 @@ import android.util.Log;
 import android.widget.EditText;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.android_notes.R;
 
 public class TestActivity extends AppCompatActivity {
     @Override

@@ -1,4 +1,4 @@
-package com.example.android_notes
+package com.example.android_notes.activity
 
 import android.content.Context
 import android.content.Intent
@@ -8,6 +8,7 @@ import android.view.View
 import android.view.inputmethod.EditorInfo
 import android.view.inputmethod.InputMethodManager
 import android.widget.Toast
+import com.example.android_notes.R
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_sub.*
 
@@ -18,7 +19,7 @@ class MainActivity : AppCompatActivity() {
 
         // move function
         iv_move.setOnClickListener{
-            startActivity(Intent(this, RecyclerviewActivity::class.java))
+            startActivity(Intent(this, CardViewActivity::class.java))
         }
         // 마지막 EditText(et_pw) 완료버튼은 Login 호출
         et_pw.setOnEditorActionListener() { v, actionId, event ->

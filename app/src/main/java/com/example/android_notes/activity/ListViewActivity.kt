@@ -1,7 +1,8 @@
-package com.example.android_notes
+package com.example.android_notes.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.android_notes.R
 
 class ListViewActivity : AppCompatActivity() {
 

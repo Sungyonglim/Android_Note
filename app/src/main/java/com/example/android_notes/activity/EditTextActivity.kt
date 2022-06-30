@@ -1,20 +1,10 @@
-package com.example.android_notes
+package com.example.android_notes.activity
 
-import android.app.ProgressDialog.show
-import android.content.Intent
-import android.graphics.Color
-import android.graphics.PorterDuff
-import android.opengl.Matrix
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.provider.MediaStore
-import android.text.Editable
-import android.text.TextWatcher
 import android.view.View
-import android.widget.ImageView
 import android.widget.Toast
-import androidx.activity.result.contract.ActivityResultContracts
-import androidx.core.view.isVisible
+import com.example.android_notes.R
 import kotlinx.android.synthetic.main.activity_edit_text.*
 
 class EditTextActivity : AppCompatActivity() {
