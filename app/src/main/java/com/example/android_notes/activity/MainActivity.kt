@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
 
         // move function
         iv_move.setOnClickListener{
-            startActivity(Intent(this, TabNavViewPagerActivity::class.java))
+            startActivity(Intent(this, MoreActivity::class.java))
         }
         // 마지막 EditText(et_pw) 완료버튼은 Login 호출
         et_pw.setOnEditorActionListener() { v, actionId, event ->
