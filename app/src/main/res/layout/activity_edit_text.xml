@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".EditTextActivity">
 
 <!--    EditText Attribute
@@ -16,14 +17,56 @@
 -->
 
 
-    <ImageView
-        android:src="@drawable/android_icon"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-    />
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
 
-    <!-- ImageView
-        - 사진 넣기 = src, (background X)
+        <Button
+            android:id="@+id/btn_1"
+            android:onClick="click"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="버튼1"/>
 
-    -->
+        <Button
+            android:id="@+id/btn_2"
+            android:onClick="click"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="버튼2"/>
+
+        <Button
+            android:id="@+id/btn_3"
+            android:onClick="click"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="버튼3"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/design_default_color_error"/>
+
+        <ImageView
+            android:id="@+id/iv_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/design_default_color_secondary_variant"/>
+
+        <ImageView
+            android:id="@+id/iv_3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/favoriteColor"/>
+
+    </FrameLayout>
 </LinearLayout>

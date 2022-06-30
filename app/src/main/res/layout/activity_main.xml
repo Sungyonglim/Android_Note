@@ -7,7 +7,8 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <ImageView android:id="@+id/iv"
+    <ImageView
+        android:id="@+id/iv_move"
         android:layout_width="115dp"
         android:layout_height="95dp"
         android:layout_gravity="center_horizontal"
