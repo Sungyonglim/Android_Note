@@ -9,19 +9,28 @@
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/drawable/custom_button2.xml" value="0.1" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/drawable/custom_button_selector.xml" value="0.1" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/drawable/custom_layer_list.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/drawable/ic_baseline_favorite_border_24.xml" value="0.161" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/drawable/ic_baseline_person_pin_24.xml" value="0.161" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/drawable/ic_baseline_play_arrow_24.xml" value="0.1" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/drawable/icon_resize.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_bottom_nav_view_pager.xml" value="0.11851092896174864" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_card_view.xml" value="0.15756578947368421" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_edit_text.xml" value="0.128" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_java.xml" value="0.20262919310970082" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_main.xml" value="0.152" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_nav_view_pager.xml" value="0.10400000000000001" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_recyclerview.xml" value="0.15756578947368421" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_server.xml" value="0.264" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_sub.xml" value="0.1" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_sub2.xml" value="0.12" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_tab_nav_view_pager.xml" value="0.11851092896174864" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_test.xml" value="0.13916591115140525" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/custom_listview.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/fragment_favorite.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/fragment_profile.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/menu/nav_menu.xml" value="0.1" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
       </map>
     </option>
