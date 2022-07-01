@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
 
         // move function
         iv_move.setOnClickListener{
-            startActivity(Intent(this, ToggleButtonActivity::class.java))
+            startActivity(Intent(this, FloatingActionButtonActivity::class.java))
         }
         // 마지막 EditText(et_pw) 완료버튼은 Login 호출
         et_pw.setOnEditorActionListener() { v, actionId, event ->
