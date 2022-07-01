@@ -12,7 +12,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidNotes"
         tools:targetApi="31">
-        <activity android:name=".activity.MoreActivity"
+        <activity
+            android:name=".activity.MoreButtonActivity"
             android:exported="false" />
         <activity
             android:name=".activity.SwitchActivity"
