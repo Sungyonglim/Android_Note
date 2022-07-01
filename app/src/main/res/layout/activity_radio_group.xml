@@ -5,19 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity.MoreButtonActivity">
-
-    <!-- 체크박스
-    <CheckBox android:id="@+id/checkBox"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="CheckBox"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-     -->
-
+    tools:context=".activity.RadioGroupActivity">
 
     <RadioGroup
         android:id="@+id/radioGroup"
@@ -29,17 +17,17 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <RadioButton
-            android:id="@+id/radioButton"
+            android:id="@+id/radioBtn1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="1" />
         <RadioButton
-            android:id="@+id/radioButton2"
+            android:id="@+id/radioBtn2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="2" />
         <RadioButton
-            android:id="@+id/radioButton3"
+            android:id="@+id/radioBtn3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="3" />
