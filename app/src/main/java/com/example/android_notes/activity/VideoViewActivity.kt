@@ -1,6 +1,7 @@
 package com.example.android_notes.activity
 
 import android.media.session.MediaController
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -12,7 +13,10 @@ class VideoViewActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_video_view)
 
-        // video 경로
+        // 공개된 비디오의 주소를 통해 가져오는 방법
+//        videoView.setVideoURI((Uri.parse("경로 입력"))
+
+        // video를 경로를 통해 받아오는 방법
         val videoPath = "android.resource://" + packageName + "/" + R.raw.test
         // videoView에 video 경로를 주면 해당 경로에 있는 video 실행됨
         // videoPath만 주고 실행하면 재생현황을 controller로 없음
@@ -25,5 +29,7 @@ class VideoViewActivity : AppCompatActivity() {
 //        mediaController.setAnchorView(videoView)
         // 비디오가 실행되는 동안 화면이 켜져있음
         videoView.keepScreenOn = true
+
+        // 추가 가능
     }
 }
