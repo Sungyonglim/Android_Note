@@ -1,10 +1,7 @@
 package com.example.android_notes.activity
 
-import android.media.session.MediaController
-import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
 import com.example.android_notes.R
 import kotlinx.android.synthetic.main.activity_video_view.*
 
@@ -31,5 +28,8 @@ class VideoViewActivity : AppCompatActivity() {
         videoView.keepScreenOn = true
 
         // 추가 가능
+        videoView.start() // 비디오 시작
+        videoView.pause() // 비디오 일시정지
+        videoView.seekTo(10000) // 비디오 재생시간 앞으로 10초 이동
     }
 }
