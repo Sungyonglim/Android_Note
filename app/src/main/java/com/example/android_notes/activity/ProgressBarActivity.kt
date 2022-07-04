@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import com.example.android_notes.R
+import kotlinx.android.synthetic.main.activity_progress_bar.*
 import kotlinx.android.synthetic.main.activity_sample.*
 import java.util.*
 import kotlin.concurrent.schedule
