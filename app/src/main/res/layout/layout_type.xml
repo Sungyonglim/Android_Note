@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!--
+    **** ConstraintLayout ****
+    - 기본적인 구조 -> /res/drawable/constraintLayout_constructor
+    - Horizontal Divider -> 가로 경계선 나눌때 사용
+    - Vertical Divider -> 세로 경계선 나눌때 사용
+    - guidelineHorizontal => 가로 가이드라인
+    - guidelineVertical => 세로 가이드라인
+
+       -->
+
+    <!--=========================================================================================-->
+
+    <!--
+        **** LinearLayout ****
+        = 비율에 맞게 나누기
+            - weighSum = "10" 전체를 10으로 나눔
+            - 하위 버튼 등에 layout_weight = "2" 이면 20퍼 이런식으로 나눠짐
+            - horizontal 일 경우
+                - 하위 버튼 등에 width는 0dp로 설정 후 사용해야함 안그러면 width 크기에 저 크기를 포함해서 나눠서 안맞음            - horizontal 일 경우
+            - vertical 일 경우
+                - 하위 버튼 등에 height를 0dp로 설정 후 사용해야함 안그러면 height 크기에 저 크기를 포함해서 나눠서 안맞음
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        android:weightSum="10"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:text="Button" />
+
+        <Button android:id="@+id/button11"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:text="Button" />
+    </LinearLayout>
+    -->
+
+    <!--
+        **** FrameLayout ****
+        - 겹칠수 있는 장점
+        - 액자 형태 layout
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:layout_width="187dp"
+            android:layout_height="210dp"
+            android:layout_margin = "50dp"
+            android:background="@color/favoriteColor"
+             />
+        <Button
+            android:layout_width="187dp"
+            android:layout_height="210dp"
+            android:layout_margin="40dp"
+            android:background="#B9394795"
+        />
+
+
+        <Button
+            android:layout_width="187dp"
+            android:layout_height="210dp"
+            android:layout_margin="30dp"
+            android:background="#8A394795"
+        />
+    </FrameLayout>
+    -->
+
+    <!--=========================================================================================-->
+
+    <!--
+        **** TableLayout ****
+            - stretchColumns -> TableRow 하위 항목들 통제 가능
+                - 하위에 버튼이 있으면 버튼에 layout-span = "1"은 기본값 -> 자기자신
+                - layout-span="2"는 2자리 차리
+            - layout-column = "2" -> 버튼이 1번째 인덱스에 위치
+                - 대신 상위에 위치한 버튼 등 보다 앞 인덱스를 가질 수는 없음
+
+
+    <TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    android:stretchColumns="*">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <Button
+            android:text="BUTTON"
+            android:layout_span="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:text="BUTTON"
+            android:layout_span="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:text="BUTTON"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:text="BUTTON"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <Button
+            android:text="BUTTON"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:text="BUTTON"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:text="BUTTON"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:text="BUTTON"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </TableRow>
+
+</TableLayout>
+    -->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
