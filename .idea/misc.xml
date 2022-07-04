@@ -15,6 +15,7 @@
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/drawable/icon_resize.xml" value="0.1" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_abcactivity.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_app_bar_layout.xml" value="0.20478837109876016" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_bottom_nav_view_pager.xml" value="0.11851092896174864" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_calendar_view.xml" value="0.15756578947368421" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_card_view.xml" value="0.15756578947368421" />
@@ -29,7 +30,7 @@
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_progress_bar.xml" value="0.15756578947368421" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_radio_group.xml" value="0.10382513661202186" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_recyclerview.xml" value="0.15756578947368421" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_sample.xml" value="0.2" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_sample.xml" value="0.11574074074074074" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_search_view.xml" value="0.20478837109876016" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_seek_rating_bar2.xml" value="0.15756578947368421" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_server.xml" value="0.264" />
