@@ -14,7 +14,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidNotes"
         tools:targetApi="31">
-
+        <activity
+            android:name=".activity.CalendarViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="false" />
         <activity
             android:name=".activity.VideoViewActivity"
             android:exported="false" />
@@ -61,7 +66,7 @@
             android:name=".activity.EditTextActivity"
             android:exported="true" />
         <activity
-            android:name=".activity.MainActivity"
+            android:name=".activity.SampleActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
