@@ -24,9 +24,11 @@
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_check_box.xml" value="0.10382513661202186" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_edit_text.xml" value="0.128" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_floating_action_button.xml" value="0.12704918032786885" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_frame_layout.xml" value="0.20478837109876016" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_java.xml" value="0.20262919310970082" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_listview.xml" value="0.142792384406165" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_main.xml" value="0.152" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_media_player.xml" value="0.1" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_more_button.xml" value="0.1" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_nav_view_pager.xml" value="0.10400000000000001" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_navigation_view.xml" value="0.2" />
@@ -57,6 +59,8 @@
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_video_view.xml" value="0.15756578947368421" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_web_view.xml" value="0.15756578947368421" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/custom_listview.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/frag1.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/frag2.xml" value="0.1" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/fragment_favorite.xml" value="0.1" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/fragment_home.xml" value="0.1" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/fragment_profile.xml" value="0.1" />
