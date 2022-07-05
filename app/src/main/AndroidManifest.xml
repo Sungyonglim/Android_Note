@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.android_notes">
     <!-- 애뮬레이터 인터넷 허용 -->
-    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- 권한 없이 진동 사용 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
 
     <application android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -14,7 +15,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidNotes"
         tools:targetApi="31">
-        <activity android:name=".activity.ToolbarActivity"
+        <activity android:name=".activity.VibrateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ToolbarActivity"
             android:exported="false" />
         <activity
             android:name=".activity.NavigationViewActivity"
