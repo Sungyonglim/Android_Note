@@ -24,6 +24,7 @@
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_edit_text.xml" value="0.128" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_floating_action_button.xml" value="0.12704918032786885" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_java.xml" value="0.20262919310970082" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_listview.xml" value="0.142792384406165" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_main.xml" value="0.152" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_more_button.xml" value="0.1" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_nav_view_pager.xml" value="0.10400000000000001" />
@@ -32,8 +33,9 @@
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_progress_bar.xml" value="0.15756578947368421" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_radio_group.xml" value="0.10382513661202186" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_recyclerview.xml" value="0.15756578947368421" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_sample.xml" value="0.2" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_sample.xml" value="0.14705882352941177" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_search_view.xml" value="0.20478837109876016" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_seek_rating_bar.xml" value="0.142792384406165" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_seek_rating_bar2.xml" value="0.15756578947368421" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_server.xml" value="0.264" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_spinner.xml" value="0.20478837109876016" />
@@ -43,6 +45,7 @@
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_tab_nav_view_pager.xml" value="0.11851092896174864" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_test.xml" value="0.13916591115140525" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_toggle_button.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_toolbar.xml" value="0.20478837109876016" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_various_view.xml" value="0.10400000000000001" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_video_view.xml" value="0.15756578947368421" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_web_view.xml" value="0.15756578947368421" />
@@ -51,6 +54,7 @@
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/fragment_home.xml" value="0.1" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/fragment_profile.xml" value="0.1" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/layout_type.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/menu/menu.xml" value="0.2" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/menu/nav_menu.xml" value="0.1" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/menu/navi_menu.xml" value="0.2039333048311244" />
         <entry key="..\:/Users/User/AndroidStudioProjects/AndroidNotes/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />

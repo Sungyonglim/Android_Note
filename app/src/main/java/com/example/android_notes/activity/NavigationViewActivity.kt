@@ -8,11 +8,8 @@ import android.widget.Toast
 import androidx.core.view.GravityCompat
 import com.example.android_notes.R
 import com.google.android.material.navigation.NavigationView
-import com.google.android.material.snackbar.Snackbar
 import kotlinx.android.synthetic.main.activity_navigation_view.*
 import kotlinx.android.synthetic.main.activity_navigation_view.navView
-import kotlinx.android.synthetic.main.activity_sample.*
-import kotlinx.android.synthetic.main.activity_sample.layout_drawer
 
 class NavigationViewActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
     override fun onCreate(savedInstanceState: Bundle?) {
