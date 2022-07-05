@@ -4,7 +4,8 @@
     package="com.example.android_notes">
     <!-- 애뮬레이터 인터넷 허용 -->
     <uses-permission android:name="android.permission.INTERNET" /> <!-- 권한 없이 진동 사용 -->
-    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.VIBRATE" /> <!-- 네트워크 허용 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -15,7 +16,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidNotes"
         tools:targetApi="31">
-        <activity android:name=".activity.SensorActivity"
+        <activity
+            android:name=".activity.NetworkCheckActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.SensorActivity"
             android:exported="false" />
         <activity
             android:name=".activity.NotificationActivity"
