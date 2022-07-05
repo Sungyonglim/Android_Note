@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.NavigationViewActivity">
+
+    <!--
+    **** Navigation View ****
+    - setting
+    - navigation view를 사용하려면 drawerLayout을 사용해서 구현해야 한다.
+    - drawerLayout 하위에 constraintLayout과 navigationView가 있으면 위치를 constraintLayout이 drawerLayout 바로
+    하위에 위치하도록 배치 -> ** 위치 중요함 하위로 갈 수록 해당 스마트폰에 보이는 거임 그래서 배치를 이상하게하면 가려짐
+    - navigationView에 layout-gravity = "start"로 해야 보임
+
+-->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/navBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="네이게이션 버튼"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/navi_menu"
+    />
+
+</androidx.drawerlayout.widget.DrawerLayout>
