@@ -14,6 +14,11 @@ import java.util.*
 // TodoAdapter => 데이터를 그려주는 역할
 class TodoAdapter(private val todos: List<Todo>) : RecyclerView.Adapter<TodoAdapter.TodoViewHolder>() {
 
+    fun clearAll() {
+        todos.forEach { it.completed = true }
+        notifyDataSetChanged() // 데이터 셋이 변경되어서 onBindViewHolder 를 다시 호출
+    }
+
     inner class TodoViewHolder(private val binding: ItemTodoBinding) :
         RecyclerView.ViewHolder(binding.root) {
 

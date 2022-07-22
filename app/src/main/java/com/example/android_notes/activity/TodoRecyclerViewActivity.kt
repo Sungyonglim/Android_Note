@@ -48,6 +48,10 @@ class TodoRecyclerViewActivity : AppCompatActivity() {
         // Adapter => item_todo.xml 을 실제로 만들어서 값 같은 것을 넣어주는 역할
         binding.todoList.adapter = TodoAdapter(todos)
 
+        binding.clearButton.setOnClickListener {
+            (binding.todoList.adapter as? TodoAdapter)?.clearAll()
+        }
+
 
     }
 }
