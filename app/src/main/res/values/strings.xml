@@ -3,4 +3,6 @@
     <string name="title">Application
         Title\nApplication Title
     </string>
+    <string name="dice_startBtn">굴리기</string>
+    <string name="dice_clearBtn">초기화</string>
 </resources>

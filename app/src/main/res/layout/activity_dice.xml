@@ -6,45 +6,61 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="center"
+    android:gravity="center_vertical"
     tools:context=".activity.DiceActivity">
 
-    <ImageView
-        android:id="@+id/iv_dice"
+    <LinearLayout
+        android:id="@+id/dice_parent"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:background="@drawable/ic_dice_bg"/>
+        android:layout_height="wrap_content">
 
-    <TextView
-        android:id="@+id/tv_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="Random"
-        android:textSize="30sp"/>
+        <ImageView
+            android:id="@+id/dice_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="10dp"
+            tools:src="@drawable/dice_1"/>
+
+        <ImageView
+            android:id="@+id/dice_image2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            tools:src="@drawable/dice_2"/>
+
+    </LinearLayout>
+
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp">
-
+        android:layout_gravity="center_horizontal">
         <Button
-            android:id="@+id/result_btn"
+            android:id="@+id/start_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="20dp"
             android:background="@color/design_default_color_primary"
             android:textColor="@color/white"
-            android:text="돌리기"/>
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="@string/dice_startBtn"/>
 
 
         <Button
             android:id="@+id/clear_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/white"
             android:background="@color/design_default_color_error"
-            android:text="초기화"/>
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="@string/dice_clearBtn"/>
+
     </LinearLayout>
+
 
 </LinearLayout>
