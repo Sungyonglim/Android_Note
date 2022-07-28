@@ -14,7 +14,7 @@ class VideoViewActivity : AppCompatActivity() {
 //        videoView.setVideoURI((Uri.parse("경로 입력"))
 
         // video를 경로를 통해 받아오는 방법
-        val videoPath = "android.resource://" + packageName + "/" + R.raw.test
+        val videoPath = "android.resource://" + packageName + "/"
         // videoView에 video 경로를 주면 해당 경로에 있는 video 실행됨
         // videoPath만 주고 실행하면 재생현황을 controller로 없음
         videoView.setVideoPath(videoPath)

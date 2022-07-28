@@ -41,7 +41,7 @@ class TodoRecyclerViewActivity : AppCompatActivity() {
     }
 
     private fun initializeViews() {
-        // layoutManager => 아이템을 어떻게 배열할지 결정 
+        // layoutManager => 아이템을 어떻게 배열할지 결정
         // LinearLayoutManager => 세로로 배열한다는 의미
         // GridLayoutManager => 판 형식으로 배열한다는 의미
         binding.todoList.layoutManager = LinearLayoutManager(this)
