@@ -26,6 +26,14 @@ class ColorMyViewsActivity : AppCompatActivity() {
             R.id.box_five_text -> v.setBackgroundColor(Color.BLUE)
             else -> v.setBackgroundColor(Color.LTGRAY)
 
+            /* 이미지로 변경
+            R.id.box_one_text -> v.setBackgroundResource(R.drawable.ic_baseline_home_24)
+            R.id.box_two_text -> v.setBackgroundResource(R.drawable.ic_baseline_person_pin_24)
+            R.id.box_three_text -> v.setBackgroundResource(R.drawable.ic_baseline_email_24)
+            R.id.box_four_text -> v.setBackgroundResource(R.drawable.ic_baseline_send_24)
+            R.id.box_five_text -> v.setBackgroundResource(R.drawable.ic_baseline_favorite_border_24)
+            */
+
         }
     }
 
