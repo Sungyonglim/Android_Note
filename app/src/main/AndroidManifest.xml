@@ -16,13 +16,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidNotes"
         tools:targetApi="31">
-
-        <activity android:name=".androidCourse.AboutMeActivity"
+        <activity
+            android:name=".androidCourse.ColorMyViewsActivity"
             android:exported="false" />
-
-        <activity android:name=".androidCourse.DiceActivity"
+        <activity
+            android:name=".androidCourse.AboutMeActivity"
             android:exported="false" />
-
+        <activity
+            android:name=".androidCourse.DiceActivity"
+            android:exported="false" />
         <activity
             android:name=".activity.MainActivity"
             android:exported="false" />
