@@ -7,7 +7,8 @@ import androidx.core.content.ContextCompat
 import com.example.android_notes.R
 import com.example.android_notes.adapter.ListViewAdapter
 import com.example.android_notes.adapter.ListViewItem
-import kotlinx.android.synthetic.main.activity_sample.*
+import kotlinx.android.synthetic.main.activity_list_view2.*
+
 
 class ListViewActivity2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
