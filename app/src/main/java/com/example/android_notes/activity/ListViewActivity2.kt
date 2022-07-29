@@ -11,6 +11,7 @@ import kotlinx.android.synthetic.main.activity_list_view2.*
 
 
 class ListViewActivity2 : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_list_view2)
