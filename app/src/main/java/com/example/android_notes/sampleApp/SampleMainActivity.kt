@@ -1,5 +1,6 @@
 package com.example.android_notes.sampleApp
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -56,8 +57,8 @@ class SampleMainActivity : AppCompatActivity() {
             auth.signInWithEmailAndPassword(email.text.toString(), pwd.text.toString())
                 .addOnCompleteListener(this) { task ->
                     if (task.isSuccessful) {
-                        val user = auth.currentUser
-                        Toast.makeText(this, "${user?.email.toString()}님 로그인 성공", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(this, "${auth.currentUser?.email.toString()}님 로그인 성공", Toast.LENGTH_SHORT).show()
+                        startActivity(Intent(this,BoardListActivity::class.java))
                     } else {
                         Toast.makeText(this, "로그인 실패", Toast.LENGTH_SHORT).show()
                     }
