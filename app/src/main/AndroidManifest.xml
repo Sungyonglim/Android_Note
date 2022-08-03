@@ -16,7 +16,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidNotes"
         tools:targetApi="31">
-        <activity android:name=".simpleWeatherApp.MainActivity"
+        <activity android:name=".activity.SampleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sampleSingleApp.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".simpleWeatherApp.MainActivity"
             android:exported="false" />
         <activity
             android:name=".sampleApp.BoardWriteActivity"
@@ -148,7 +154,7 @@
             android:name=".activity.EditTextActivity"
             android:exported="true" />
         <activity
-            android:name=".activity.SampleActivity"
+            android:name=".sampleSingleApp.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
