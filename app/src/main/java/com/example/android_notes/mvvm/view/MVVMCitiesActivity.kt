@@ -1,4 +1,4 @@
-package com.example.android_notes.mvvm
+package com.example.android_notes.mvvm.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

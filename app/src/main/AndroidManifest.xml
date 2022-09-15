@@ -18,7 +18,7 @@
         android:theme="@style/Theme.AndroidNotes"
         tools:targetApi="31">
         <activity
-            android:name=".mvvm.MVVMCitiesActivity"
+            android:name=".mvvm.view.MVVMCitiesActivity"
             android:exported="false" />
         <activity
             android:name=".activity.SampleActivity"
