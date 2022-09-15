@@ -24,7 +24,6 @@ class MVVMCitiesActivity : AppCompatActivity() {
 
         model.getCityData().observe(this) { city ->
             binding.cityImage.setImageDrawable(ResourcesCompat.getDrawable(resources, city.img, applicationContext.theme))
-//            binding.cityImage.setImageDrawable(ContextCompat.getDrawable(this, city.img))
             binding.tvCityName.text = city.name
             binding.tvCityPopulation.text = city.population.toString()
         }
