@@ -24,7 +24,6 @@
     </style>
 
     <style name="IntroButtonStyle">
-        <item name="android:background">@drawable/single_button_radius</item>
         <item name="android:layout_margin">5dp</item>
         <item name="android:textSize">20sp</item>
         <item name="android:textStyle">bold</item>
@@ -54,7 +53,6 @@
     </style>
 
     <style name="JoinBtnStyle">
-        <item name="android:background">@drawable/single_join_radius</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textSize">20sp</item>
         <item name="android:layout_margin">20dp</item>

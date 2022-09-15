@@ -8,7 +8,6 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.example.android_notes.R
 import kotlinx.android.synthetic.main.activity_frame_layout.*
-import kotlinx.android.synthetic.main.activity_sample.*
 
 class FrameLayoutActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

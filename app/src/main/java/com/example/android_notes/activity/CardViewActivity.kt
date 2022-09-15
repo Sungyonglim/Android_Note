@@ -10,7 +10,7 @@ import com.example.android_notes.adapter.CustomCardViewAdapter
 import com.example.android_notes.adapter.CustomRecyclerViewAdapter
 import com.example.android_notes.adapter.Cv_Data
 import kotlinx.android.synthetic.main.activity_card_view.*
-import kotlinx.android.synthetic.main.activity_recyclerview.*
+import kotlinx.android.synthetic.main.activity_recycler_view2.*
 
 class CardViewActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
