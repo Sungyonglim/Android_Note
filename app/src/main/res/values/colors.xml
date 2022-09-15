@@ -12,4 +12,6 @@
     <color name="my_red">#E54304</color>
     <color name="my_yellow">#FFC107</color>
     <color name="single_bg">#FFD400</color>
+    <color name="grey">#999999</color>
+
 </resources>

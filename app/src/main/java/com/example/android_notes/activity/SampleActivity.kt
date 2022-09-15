@@ -1,26 +1,26 @@
 package com.example.android_notes.activity
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
-import android.widget.AdapterView
-import android.widget.Toast
-import androidx.core.content.ContextCompat
+import androidx.databinding.DataBindingUtil
 import com.example.android_notes.R
-import com.example.android_notes.adapter.ListViewAdapter
-import com.example.android_notes.adapter.ListViewItem
-import kotlinx.android.synthetic.main.activity_list_view2.*
-import kotlinx.android.synthetic.main.activity_sample.*
+import com.example.android_notes.databinding.ActivitySampleBinding
 
 
 class SampleActivity : AppCompatActivity() {
+    private lateinit var binding: ActivitySampleBinding
 
 
     // 액티비티가 생성되었을 때
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         // 레이아웃 설정 
-        setContentView(R.layout.activity_sample)
+        binding = DataBindingUtil.setContentView(this, R.layout.activity_sample)
+
+        binding.btn.setOnClickListener { startActivity(
+            Intent(this@SampleActivity, com.example.android_notes.sampleSingleApp.MainActivity::class.java)
+        ) }
 
     }
 

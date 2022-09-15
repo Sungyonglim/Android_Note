@@ -23,4 +23,49 @@
         <item name="android:layout_marginStart">@dimen/margin_wide</item>
     </style>
 
+    <style name="IntroButtonStyle">
+        <item name="android:background">@drawable/single_button_radius</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="SingleTextStyle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="SingleEditTextStyle" parent="android:Widget.EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_margin">20dp</item>
+    </style>
+
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:layout_marginEnd">20dp</item>
+        <item name="android:background">@color/grey</item>
+    </style>
+
+    <style name="JoinBtnStyle">
+        <item name="android:background">@drawable/single_join_radius</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_margin">20dp</item>
+
+    </style>
+
+    <style name="FragmentBottomLine">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+
+    </style>
+
 </resources>

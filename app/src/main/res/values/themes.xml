@@ -7,7 +7,7 @@
             @color/purple_500
         </item>
         <item name="colorPrimaryVariant">
-            @color/purple_700
+            @color/single_bg
         </item>
         <item name="colorOnPrimary">@color/white
         </item>
