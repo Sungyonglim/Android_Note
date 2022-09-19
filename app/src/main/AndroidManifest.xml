@@ -17,11 +17,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidNotes"
         tools:targetApi="31">
+
         <activity
-            android:name=".SecondActivity"
+            android:name=".jetpack.second.SecondActivity"
             android:exported="false" />
         <activity
-            android:name=".FirstActivity"
+            android:name=".jetpack.first.FirstActivity"
             android:exported="false" />
         <activity
             android:name=".activity.SampleActivity"
@@ -154,7 +155,6 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

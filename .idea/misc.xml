@@ -3,12 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/dlatj/AndroidStudioProjects/AndroidNotes/app/src/main/res/drawable/avd_anim.xml" value="0.1" />
+        <entry key="..\:/Users/dlatj/AndroidStudioProjects/AndroidNotes/app/src/main/res/drawable/dice_2.xml" value="0.1155" />
         <entry key="..\:/Users/dlatj/AndroidStudioProjects/AndroidNotes/app/src/main/res/drawable/splash_bg_gradient.xml" value="0.1" />
+        <entry key="..\:/Users/dlatj/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_first.xml" value="0.24139492753623187" />
         <entry key="..\:/Users/dlatj/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_main3.xml" value="0.3235294117647059" />
         <entry key="..\:/Users/dlatj/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_mvvmcities.xml" value="0.176" />
         <entry key="..\:/Users/dlatj/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_recycler_view.xml" value="0.2115036231884058" />
         <entry key="..\:/Users/dlatj/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_recyclerview.xml" value="0.12708333333333333" />
         <entry key="..\:/Users/dlatj/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_sample.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/dlatj/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_second.xml" value="0.24139492753623187" />
         <entry key="..\:/Users/dlatj/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/activity_splash.xml" value="0.1" />
         <entry key="..\:/Users/dlatj/AndroidStudioProjects/AndroidNotes/app/src/main/res/layout/contest_rv_list.xml" value="0.2115036231884058" />
       </map>
